@@ -40,7 +40,7 @@ Average time to get a picture: 1.81s<br>
 Average file size of one picture: 48KB<br>
 Rate Limit: ban after 9380s and 5035 pictures (can't remember how many requests that were... must be close to 100.000)
 
-Statistics were messuared at max script speed with an internet speeed of 10MB/s upload and 35MB/s download.<br>
+Statistics were messuared at max script speed with an internet connection speed of 10MB/s upload and 35MB/s download.<br>
 I would suggest not to use the script at max speed. Change setTimeout() from 50ms to something bigger or you will propably be banned after 9380s. 
 
 
