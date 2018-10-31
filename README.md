@@ -43,7 +43,7 @@ Rate Limit: ban after 9380s and 5035 pictures (can't remember how many requests 
 Statistics were messuared at max script speed with an internet connection speed of 10MB/s upload and 35MB/s download.<br>
 I would suggest not to use the script at max speed. Change setTimeout() from 50ms to something bigger or you will propably be banned after 9380s. 
 
-
+<br><br>
 I'm realy interested in what you come up using this project for. I would be realy thankful if someone could tell me more about the rate limit he/she discovered so we can find out more about the "sweet spot".<br>
 If you have some more ideas feel free to contribute.<br>
-This project is working as today (31.10.2018) but because Whatsapp is constantly changing their API please raise an issue if you experience any bug.
+This project is working at the state of today (31.10.2018) but because Whatsapp is constantly changing their API please raise an issue if you experience any bug.
