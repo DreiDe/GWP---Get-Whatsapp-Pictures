@@ -47,4 +47,4 @@ I would suggest not to use the script at max speed. Change setTimeout() from 50m
 I'm realy interested in what you come up using this project for. I would be realy thankful if someone could tell me more about the rate limit he/she discovered so we can find out more about the "sweet spot".<br>
 If you have some more ideas feel free to contribute.<br>
 This project is working at the state of today (31.10.2018) but because Whatsapp is constantly changing their API please raise an issue if you experience any bug.<br>
-This project is open for anyone and not licensed. You are free to copy, change, sell it or do whatever you want to do with it.
+This project is open for anyone and licensed under the Unilicense. That means you are completly free to copy, change, sell or do whatever you want to do with this project.
