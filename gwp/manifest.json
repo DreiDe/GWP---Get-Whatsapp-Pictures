@@ -1,0 +1,25 @@
+{
+    "name":"WhatsAppPictures",
+    "version":"0.0.0.1",
+    "manifest_version":2,
+    "description":"Get Profil pictures from random Whatsapp Accounts.",
+	"web_accessible_resources" : ["ui.js"],
+	  "icons": {
+		"48": "icon.png"
+	  },
+	 "browser_action": {
+		"default_icon": "icon.png"
+	  },
+    "content_scripts": [
+      {
+        "matches": ["https://web.whatsapp.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "permissions":[
+        "activeTab",
+		"http://localhost/*",
+		"storage"
+        ]
+}
