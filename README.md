@@ -1,5 +1,5 @@
 # GWP---Get-Whatsapp-Pictures
-Javascript Chrome plugin to get Whatsapp profile pictures for dataset creation.
+Javascript Chrome plugin to get Whatsapp profile pictures for dataset creation with the use of the internal Whatsapp Web API.
 This project was inspired by <a href="https://github.com/LoranKloeze/WhatsAllApp">WhatsAllApp</a> from <a href="https://github.com/LoranKloeze">LoranKloeze</a>
 
 
@@ -25,5 +25,13 @@ Use of this project happens at your own risk!
 6. Choose the extracted folder and click "OK".
 
 
-<h3>What this project is about:</b>
-The goal of this project is to discover the internal Whatsapp Web API to see What's possible. 
+<h3>Goals of this project:</h3>
+At the moment the project has 3 main goals:<br>
+1. Discover the internal Whatsapp Web Api and see What's possible.<br>
+2. Get thousends of images for the use in machine learning systems.<br>
+3. Get data for analysing and evaluation purposes.
+
+
+<h3>What this project is capable of:</h3>
+At the current state the project is only able to get profile pictures from Whatsapp users by their phone number. Also if they are not in your contacts. The script generates a set of 100 numbers by chance (currently the german number format is used but you should be able to change this easily) and saves the profile picture of the desired number (if the number exists, uses Whatsapp and has the Profile picture set to public) to the in whatsapp.php given location. After that the page is reloaded (whithout reloading the page you get a rate limit from the servers realy fast) and the process starts over and over again.
+
