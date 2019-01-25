@@ -16,7 +16,7 @@ const toDataURL = url => fetch(url)
     }))
 
 function getpic(num) { //get profile picture from number
-    let url = window.Store.Wap.profilePicFind(num + "@c.us");
+    let url = window.Store.Wap.default.__proto__.profilePicFind(num + "@c.us");
 
     function check1() { //check if url request is finished
         if (url._value != undefined) {
